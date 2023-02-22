@@ -1,0 +1,60 @@
+:root{
+  --nord0: #262768;
+}
+
+ 
+* { outline: 1px solid olive;
+
+}
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.imagenPerfil {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.encabezado{
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(126,147,214,1) 100%, rgba(12,10,31,1) 100%);
+}
+
+nav{
+  background-color: #95b6ce;
+}
+
+.nav-link {
+  color: black;
+  text-shadow: 2px 2px 5px white;
+  font-weight: 600;
+}
+html {
+min-height: 100%;
+position: relative;
+}
+
+body {
+margin: 0;
+margin-bottom: 60px;
+
+}
+
+
+
+
+footer {
+background-color: white;
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 50px;
+color: white;
+
+}
