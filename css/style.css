@@ -125,3 +125,34 @@ color: white;
 .row {
   margin-right: 0px;
 }
+
+
+
+.languageContainer {
+  display: flex;
+  justify-content: end;
+  overflow: visible;
+  height: 3rem;
+  font-size: small;
+}
+.languages {
+  display:flex;
+  align-items: center;
+  margin:.2rem;
+  padding: 0.5rem;
+  color: #000000;
+  cursor: pointer;
+}
+.languages::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 18px;
+}
+.british::before{
+  background:url("../images/ing32.jpg");
+}
+.spain::before{
+  background:url("../images/arg32.jpg");
+}
+
