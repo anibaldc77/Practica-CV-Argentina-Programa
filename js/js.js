@@ -12,9 +12,7 @@ function actualizarDatos() {
         document.getElementById("whatsapp").innerHTML = i.cell;
         var f = new Date(i.dob.date);
         document.getElementById("fechaNacimiento").innerHTML = f.getDate() + "/"+ f.getMonth()+ "/" +f.getFullYear() + " (" + i.dob.age + ")";
-
-
-        
+       
         document
           .getElementById("imagenusuario")
           .setAttribute("src", i.picture.large);
@@ -28,7 +26,6 @@ const selectedEnglish = document.getElementById("eng");
 const selectedEspanol = document.getElementById("esp");
 const hidden = "display:none;";
 const shown = "display:block;";
-
 const allEnglishText = document.getElementsByClassName("eng");
 const allEspanolText = document.getElementsByClassName("esp");
 
